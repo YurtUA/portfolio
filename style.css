@@ -1,1 +1,9 @@
 /* css */
+body {
+/*background-image: url("https://newbicyclekiev.000webhostapp.com/myimages/Velo.jpg");*/
+background-image: url("https://newbicyclekiev.000webhostapp.com/myimages/BMW_3 Series_Hatchback 5 door_2013.jpg");
+background-size: 100% 100%;
+/*background-size: contain;
+/*background-size: cover;*/
+
+}
