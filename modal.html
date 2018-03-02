@@ -1,0 +1,38 @@
+<!---------------------------------------------------------------->
+<!--Страница index.html будет содержать кнопку Открыть диалоr,-->
+
+<head>
+    <meta charset="utf-8">
+    <titlе>Модальный диалог
+    </titlе>
+    <script>
+        function wmopen() { // Открываем модальное окно
+            var obj = window. showModalDialog ( "modal. html", [ "Fi tstname", "Lastname"],
+                "dialogWidth:ЗOOpx;
+            dialogHeight:200px;
+            center=yes; status=no;"); if (obj != null) { var msg = "
+            Имя: " + obj .first; msg += "<Ьr>
+            Фамилия: "+ obj.last;
+            document.getElementByid("learnMore") .innerHTML msg;
+
+    </script>
+<body>
+<p><input type="button" vаluе="Открыть диалог" onclick="wmopen();">
+</p> <div id="learnMore">
+</div>
+</body>
+</htrnl>
+
+!-- Modal -->
+<div id="learnMore" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">About Me</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hello! I am Yurii, a front-end developer of beatiful, adaptive, colorful websites. Will make your website fly in the  Internet network and bring your company huge profit and success.</p>
+            </div>
